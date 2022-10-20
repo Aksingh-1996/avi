@@ -1,0 +1,22 @@
+Troubleshoot 
+
+1. Disk issue 
+
+     a. df -h
+	 b. which file taking more space
+	 c. du -sh *
+	 d. tar -cvzf new_tar.tar.gz filename
+	 f. rm -rf 
+
+
+2. RAM full 
+     a. free -h
+	 b. echo 3 > /proc/sys/vm/drop_cache
+	 
+3. CPU high 
+    top (1 no. of cpu)
+	load average (depend upon no. of cpu) (1 5 15 min)
+	cpu/memory percentage of service running
+	ps -ef | grep command 
+	
+kill -9 pid 
